@@ -1,0 +1,4 @@
+Things that one MUST know before learning smart pointers:
+
+1. Garbage collection.
+2. Memory leak

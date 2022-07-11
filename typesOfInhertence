@@ -1,0 +1,14 @@
+Simple Inheritence
+Hierarchical Inheritence
+Multilevel Inheritence
+Multiple Inheritence
+Hybrid (mixing 2 or more types)
+    Under this we have:
+    -> Multipath Inheritence - Hierarchical+Multiple
+
+         A
+        / \
+        B  C
+        \  /
+         D -> this is Multipath. ABC have hierarchical and BCD have Multiple. Here we may have ambiguity issues.
+         consider a function fun() declared in A. It is availible to D via B and C. So this is an issue.
